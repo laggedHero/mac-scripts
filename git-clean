@@ -1,0 +1,2 @@
+#!/bin/bash
+git branch --merged develop | grep -v 'release\|develop' | xargs git branch -d
